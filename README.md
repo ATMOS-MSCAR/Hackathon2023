@@ -38,7 +38,6 @@ bash Anaconda3-2020.07-Linux-x86_64.sh
 
 With Miniconda or Anaconda installed, in the root directory of the Hackathon23 repository, create an environment for the hackathon.
 ```
-conda config --add channels conda-forge (maybe)
 conda env create -f hackathon.yml
 conda activate hackathon
 ```
@@ -57,7 +56,7 @@ conda install -c anaconda jupyter
 
 **Note: The complete ASTER data set (151 files) requires about 20 GB of memory. If your machine does not have that much memory available, you may download a subset of the total dataset.** 
 
-Navigate to the `scripts` directory and run the python script `create_cmasks.py` to obtain the preprocessed  ASTER files. This will take a while to run (30 minutes - 6 hours... sorry).
+Navigate to the `scripts` directory and run the python script `create_cmasks.py` to obtain the preprocessed  ASTER files. This will take a while to run (30 minutes - 6 hours... sorry). You will be prompted to enter your Earthdata Search credentials from step 1.
 ```
 cd scripts
 python create_cmasks.py
@@ -115,3 +114,4 @@ A few more notes on the `run.py` script:
 ## References
 
 Zhao, G., and L. Di Girolamo (2007), Statistics on the macrophysical properties of trade wind cumuli over the tropical western Atlantic, *J. Geophys. Res., 112,* D10204, doi:10.1029/2006JD007371.
+

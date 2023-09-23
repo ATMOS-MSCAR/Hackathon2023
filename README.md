@@ -94,6 +94,7 @@ Submitted code must run successfully in the conda environment provided for the c
 
 Code must be emailed to atmos-mscar@illinois.edu by 11:59 pm Central Time on September 29, 2023. Email submissions must include the following:
 
+ - Include "MSCAR Hackathon Submission" in the subject line.
  - An attachment to the `run.py` script containing your cloud masking model. **Only the `model_1` function should be modified in the `run.py` script** (see "How to use `run.py`" below).
  - A list of  names of everyone who contributed.
  - (Optional) An attachment containing a `hackathon.yml` file if the conda environment used is different than the environment provided. (You must seek approval from the hackathon organizing committee)
@@ -114,4 +115,3 @@ A few more notes on the `run.py` script:
 ## References
 
 Zhao, G., and L. Di Girolamo (2007), Statistics on the macrophysical properties of trade wind cumuli over the tropical western Atlantic, *J. Geophys. Res., 112,* D10204, doi:10.1029/2006JD007371.
-

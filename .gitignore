@@ -1,0 +1,4 @@
+*.hdf
+*.nc
+*.tif
+*.ipynb_checkpoints
